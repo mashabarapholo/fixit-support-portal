@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FixIt Support Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🛠</span>
+        <div>
+          <h1>FixIt Support Portal</h1>
+          <p>Internal IT Ticketing System</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="branch-badge">⎇ add-ticket-filter</span>
+        <span class="version-badge">v1.2.0</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="toolbar">
+      <div class="toolbar-left">
+        <h2>All Tickets</h2>
+        <span id="ticket-count" class="count-label">7 tickets shown</span>
+      </div>
+      <div id="filter-bar" class="filter-bar">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Open">Open</button>
+        <button class="filter-btn" data-filter="Pending">Pending</button>
+        <button class="filter-btn" data-filter="Closed">Closed</button>
+      </div>
+    </section>
+
+    <div id="ticket-list" class="ticket-list">
+      <!-- Rendered by TicketList.js -->
+    </div>
+  </main>
+
+  <script src="TicketList.js"></script>
+</body>
+</html>
