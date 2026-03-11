@@ -143,3 +143,4 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTickets("All");
 });
 // filterTickets() — filters by Open / Pending / Closed or returns all
+// initFilterButtons() — attaches event listener to filter bar UI
