@@ -77,5 +77,5 @@ fix: resolve merge conflict in renderTickets() — keep both priority field and 
 
 ## 👤 Contributors
 
-- **[Your Name]** — `add-ticket-filter` feature branch
-- **[Teammate Name]** — Priority field addition on `main`
+- **Mashaba Rapholo** — `add-ticket-filter` feature branch
+- **Vincent Nchabeleng** — Priority field addition on `main`
