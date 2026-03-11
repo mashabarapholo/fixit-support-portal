@@ -7,7 +7,7 @@ A web-based internal IT ticketing system. Allows staff to view, filter, and mana
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/[your-username]/fixit-support-portal.git
+git clone https://github.com/rapholomashaba/fixit-support-portal.git
 cd fixit-support-portal
 # Open index.html in your browser — no build step required
 ```
@@ -77,5 +77,5 @@ fix: resolve merge conflict in renderTickets() — keep both priority field and 
 
 ## 👤 Contributors
 
-- **[Your Name]** — `add-ticket-filter` feature branch
-- **[Teammate Name]** — Priority field addition on `main`
+- **Mashaba Rapholo** — `add-ticket-filter` feature branch
+- **Vincent Nchabeleng** — Priority field addition on `main`
