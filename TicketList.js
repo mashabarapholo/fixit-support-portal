@@ -3,7 +3,7 @@
  * FixIt Support Portal — Ticket Management Module
  *
  * Feature branch: add-ticket-filter
- * Author: [Your Name]
+ * Author: Mashaba Rapholo
  *
  * MERGE CONFLICT RESOLUTION LOG
  * ─────────────────────────────────────────────────────────────────────
@@ -19,7 +19,7 @@
  *   branch. The final renderTickets() function now supports both
  *   status filtering AND displays the priority field.
  *
- * Resolved by: [Your Name] — git add TicketList.js && git commit
+ * Resolved by: Mashaba Rapholo — git add TicketList.js && git commit
  * ─────────────────────────────────────────────────────────────────────
  */
 
@@ -142,3 +142,4 @@ document.addEventListener("DOMContentLoaded", () => {
   initFilterButtons();
   renderTickets("All");
 });
+// filterTickets() — filters by Open / Pending / Closed or returns all
